@@ -1,0 +1,7 @@
+{
+  "env": "development",
+  "service_name": "go-auth",
+  "grpc_port": 8080,
+  "port": 8888,
+  "db": "root:111@tcp(localhost:3306)/GOAuth?charset=utf8&parseTime=True&charset=utf8mb4&collation=utf8mb4_unicode_ci"
+}
