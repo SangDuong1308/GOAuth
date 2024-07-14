@@ -10,11 +10,13 @@ import (
 )
 
 type Config struct {
-	Env         string `json:"env"`
-	ServiceName string `json:"service_name"`
-	GrpcPort    int    `json:"grpc_port"`
-	Port        int    `json:"port"`
-	Db          string `json:"db"`
+	Env                        string `json:"env"`
+	ServiceName                string `json:"service_name"`
+	GrpcPort                   int    `json:"grpc_port"`
+	Port                       int    `json:"port"`
+	Db                         string `json:"db"`
+	AuthenticationSecretKey    string `json:"authentication_secret_key"`
+	AuthenticationPubSecretKey string `json:"authentication_pub_secret_key"`
 }
 
 func ReadConfigAndArg() *Config {

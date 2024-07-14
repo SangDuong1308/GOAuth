@@ -1,0 +1,10 @@
+version: v1
+name: "buf.build/SangDuong1308/GOAuth"
+breaking:
+  use:
+    - FILE
+lint:
+  use:
+    - DEFAULT
+deps:
+  - buf.build/googleapis/googleapis
